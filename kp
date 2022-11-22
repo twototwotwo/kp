@@ -8,7 +8,6 @@ for pid in $pids
 do
         if [ $pid != 'PID' ]
         then
-
                 echo $(kill -9 $pid)
         fi
 done
