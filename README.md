@@ -1,14 +1,17 @@
-# kp
-a command can kill process by port
+# kp 🛠️
+> a command can kill process by port.
 
-# how to install
-download install.sh and
+💡convenient  
+📦lightly  
+⚡️advanced
+
+# Install
 ```
-chmod +x install.sh
-sudo sh install.sh
+wget https://raw.githubusercontent.com/twototwotwo/kp/main/kp -O /usr/bin/kp
+chmod +x /usr/bin/kp
 ```
 
-then you can use
+# Usage
 ```
 kp $port
 ```
