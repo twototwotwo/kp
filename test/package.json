@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "kp": "../kp"
+  },
+  "scripts": {
+    "3001": "node ./server/3001.js",
+    "3002": "node ./server/3002.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
