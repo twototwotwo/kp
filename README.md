@@ -7,8 +7,7 @@
 
 # Install
 ```
-wget https://raw.githubusercontent.com/twototwotwo/kp/main/kp -O /usr/bin/kp
-chmod +x /usr/bin/kp
+curl https://raw.githubusercontent.com/twototwotwo/kp/main/install.sh | sh
 ```
 
 # Usage
