@@ -1,16 +1,11 @@
 #!/bin/bash
 
-ports=(${2//','/' '})
-
-for port in $ports
-	pids=$(lsof -i:$port | awk '{print $2}')
-	echo $pids
-
-	for pid in $pids
-	do
-		if [ $pid != 'PID' ]
-		then
-			echo $(kill -9 $pid)
-		fi
-	done
+port=$1
+pids=$(lsof -i:$port | awk '{print $2}')
+for pid in $pids
+do
+	if [ $pid != 'PID' ]
+	then
+		echo $pid killed $(kill -9 $pid)
+	fi
 done
